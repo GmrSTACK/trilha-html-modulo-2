@@ -20,19 +20,59 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(122, 186, 249);
     padding: 10px 20px 0px;
+    border: solid 2px black;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgb(93, 173, 226);
     min-height: 150px;
+    border: solid 2px;
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
+    border: solid 2px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(52, 73, 94);
+    min-height: 100px;
+    text-align: center;
+    border: solid 2px black;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+a:hover{ 
+    cursor: pointer;
+}
+
+table{
+    border: solid;
+    border: solid 2px black;
+    -webkit-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 12px 5px 0px rgba(0,0,0,0.75);
+}
+
+table thead th{
+    background-color: black;
+    border: solid 1px black;
+    color: white;
+}
+
+table tbody tr:hover td{
+    background-color: rgb(228, 227, 207);
+    cursor: pointer;
+}
+
+table tbody tr:nth-child(even){
+    background-color: bisque;
+}
+
+#conteudo{
+    min-height: 60%;
 }
